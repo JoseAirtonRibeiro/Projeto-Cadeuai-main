@@ -1,0 +1,70 @@
+.body{
+    --background: url('../../../assets/background/background-contato.png');
+    --background-size: contain;
+}
+.titulos{
+    position: relative;
+    width: 228px;
+    height: 44px;
+    left: 84px;
+    top: 63px;
+   
+
+    font-family: 'Martel';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 34px;
+
+
+    color: #ffffff;
+}
+
+.mensagem{
+    position: relative;
+    width: 308px;
+    height: 123px;
+    left: 8px;
+    top: 130px;
+    
+
+    font-family: 'Martel';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #ffffffaf;
+}
+
+.subtitulo{
+    position: absolute;
+    width: 77px;
+    height: 44px;
+    left: 135px;
+    top: 350px;
+
+    font-family: 'Martel';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #ffffff;
+
+}
+
+.email{
+    position: absolute;
+    width: 215px;
+    height: 35px;
+    left: 75px;
+    top: 420px;
+
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #ffffffc9;
+
+}

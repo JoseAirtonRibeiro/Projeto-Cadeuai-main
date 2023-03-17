@@ -1,0 +1,68 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>
+      Configurações
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <body>
+
+    <!----------------------------- app ---------------------------------->
+    <div  class="div_title" lines="none">
+      <h3 class="title">Aplicativos</h3>
+    </div>
+    
+  
+    <div lines="full" routerLink="/notificacao">
+      <img src="../../../assets/icon/notif.png" alt="" class="icon">
+      <ion-label class="comp">Notificações</ion-label>
+      <img src="../../../assets/icon/seta.png" alt="" class="seta">
+    </div>
+ 
+
+    <a href="#">
+      <div lines="full" detail="false" >
+        <img src="../../../assets/icon/site.png" alt="" class="icon">
+        <ion-label class="comp">Site</ion-label>
+        <img src="../../../assets/icon/seta.png" alt="" class="seta">
+      </div>
+    
+
+    </a>
+    <div lines="full" slot="start">
+      <img src="../../../assets/icon/avaliar.png" alt="" class="icon">
+      <ion-label class="comp">Avaliar</ion-label>
+      <img src="../../../assets/icon/seta.png" alt="" class="seta">
+    </div>
+
+
+    <div lines="full" slot="start">
+      <img src="../../../assets/icon/sobre.png" alt="" class="icon">
+      <ion-label class="comp">Sobre</ion-label>
+      <img src="../../../assets/icon/seta.png" alt="" class="seta">
+    </div>
+
+
+    <div lines="full" slot="start">
+      <img src="../../../assets/icon/termo.png" alt="" class="icon">
+      <ion-label class="comp">Termo de Uso</ion-label>
+      <img src="../../../assets/icon/seta.png" alt="" class="seta">
+    </div>
+
+
+    <div class="divend" lines="full" slot="start">
+      <img src="../../../assets/icon/compartilhar.png" alt="" class="icon">
+      <ion-label class="comp">Compartilhar</ion-label>
+      <img src="../../../assets/icon/seta.png" alt="" class="seta">
+    </div>
+
+
+  </body>
+</ion-content>

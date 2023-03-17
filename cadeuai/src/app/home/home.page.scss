@@ -1,0 +1,20 @@
+.menu {
+  padding-top: 2rem;
+}
+.content{
+  overflow: hidden
+}
+
+.footer {
+  display: flex; 
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#img_map{
+  height: 30rem;
+}
+.setor_buttons{
+  display: flex;
+  flex-direction: column;
+}

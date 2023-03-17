@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@capacitor/camera": "^4.1.4",
+    "@ionic-native/camera": "^5.36.0",
+    "firebase": "^9.17.1"
+  }
+}

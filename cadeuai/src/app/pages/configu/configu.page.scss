@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+   
+    
+    background: url(../../../assets/background/background_config.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ion-label,.title{
+    color: white;
+
+}
+
+ion-label{
+    cursor: pointer;
+    font-size: 26px;
+    // margin-left: 15px;
+
+    font-family: 'Martel';
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 31px;
+
+
+}
+
+div{
+
+    width: 90%;
+
+    border-top: 1px solid black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+
+.div_title{
+    width: 390px;
+    height: 120px;
+    border: none;
+
+}
+
+.title{
+
+    
+    font-family: 'Martel';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    cursor: default;
+    color: white;
+    font-size: 26px;
+}
+
+a{
+    
+    border: none;
+    text-decoration: none;
+}
+
+.seta{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+
+}
+
+.icon{
+    // margin-right: 1.2rem;
+    transform: scale(0.75);
+}
+
+.divend{
+    border-bottom: 1px solid black;
+}
+
+.comp{
+    margin: 25px;
+}
