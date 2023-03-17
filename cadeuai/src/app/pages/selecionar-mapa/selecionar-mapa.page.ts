@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { BarcodeScanner } from '@capacitor-community/barcode-scanner';
 import { v4 as uuidv4 } from 'uuid';
-import { RouterModule } from '@angular/router';
 import { Router } from '@angular/router';  
 
 const myGuid = uuidv4();
